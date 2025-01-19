@@ -1,0 +1,49 @@
+.services-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+    margin: 0 15px; /* Ajusta o espaço para os botões */
+    flex: 1; /* Faz o contêiner ocupar o espaço restante */
+}
+
+.service-card {
+    flex: 0 0 auto;
+    width: 250px; /* Ajuste conforme necessário */
+    margin-right: 15px; /* Espaço entre os cartões */
+    
+}
+
+.card {
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.scroll-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#scrollLeft {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#scrollRight {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

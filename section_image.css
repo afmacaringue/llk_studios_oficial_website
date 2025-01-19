@@ -1,0 +1,13 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Ajuste a margem conforme necessário */
+    margin-top: 20px;
+}
+
+.centered-image {
+    max-width: 100%; /* Para que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 50px; /* Ajuste a altura máxima conforme necessário */
+}
